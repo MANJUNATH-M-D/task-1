@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.left{
+    width: 10%;
+    margin: auto;
+    /* border: 1px solid red; */
+    float: left;
+    height: 100vh;
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.right{
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid red; */
+    float: right;
+    background-color: #e2e0e0;
+    position: relative;
+    height: 100vh;
+}
+
+.wrap{
+    /* border: 1px solid red; */
+}
+
+.logo{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+}
+
+.icon{
+    /* border: 1px solid red; */
+    margin-top: 15px;
+}
+.logo .icon i{
+    font-size: 70px;
+    padding: 5px 20px;
+    color: #80808085;
+    text-align: center;
+}
+.logo .icon i:hover{
+    color: black;
+}
+.logo:hover{
+    color: black;
+    background-color: rgba(181, 181, 221, 0.836);
+    width: 100%;
+}
+.logo .icon p:hover{color: black;}
+
+.logo .icon p{
+text-align: center;
+font-size: 15px;
+color: gray;
+}
+
+.right .input{
+width: 60%;
+margin: auto;
+border-radius: 5px;
+}
+.video{
+color: rgb(102, 102, 230);
+padding: 8px 15px;
+}
+.right input{
+    height: 50px;
+    width: 100%;
+    border: white;
+    border-radius: 3px;
+    padding: 24px;
+    font-size: 18px;
+    outline: none;
+}
+
+.or{
+position: absolute;
+top: 90px;
+left: 560px;
+font-size: 20px;
+}
+.file{
+    position: absolute;
+    top: 150px;
+    left: 245px;
+    width: 130px;
+    box-shadow: rgb(99 99 99 / 20%) 0px 2px 8px 0px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+}
+.file:hover{
+    background-color: rgb(158, 189, 247);
+}
+
+
+@media only screen and (min-width:992px) and (max-width:1199px){
+    .logo {
+        width: 100%;
+        
+    }
+    .logo .icon i {
+        font-size: 60px;
+    
+    }
+    .right .input {
+        width: 80%;
+        margin: auto;
+   
+    }
+    .file{
+        left: 98px;
+    }
+    .or{
+        left: 450px;
+    }
+}
+
+/* ipad */
+@media only screen and (min-width:700px) and (max-width:991px){
+    .logo .icon i {
+        font-size: 40px;
+    }
+    .logo{
+        width: 100%;
+        margin: auto;
+    }
+    .logo .icon p{
+        font-size: 12px;
+    }
+    .video{
+        padding: 15px 20px;
+    }
+    .right .input{
+        width: 80%;
+        margin: auto;
+    }
+    .or {
+        position: absolute;
+        top: 110px;
+        left: 335px;
+    }
+    .file{
+        top: 150px;
+        left: 280px;
+    }
+}
+
+/* ipad x */
+@media only screen and (min-width:300px) and (max-width:600px){
+    .logo .icon i{
+        font-size: 25px;
+    }
+    .logo{
+        width: 100%;
+        width: auto;
+    }
+    .logo .icon i{
+        font-size: 20px;
+    }
+    .logo .icon p{
+        font-size: 8px;
+    }
+    .video{
+        padding: 15px 15px;
+        font-size: 10px;
+    }
+    .right .input{
+        width: 85%;
+        margin: auto;
+    }
+    .right input{
+        height: 35%;
+        font-size: 11px;
+        padding: 10px;
+    }
+    .or{
+        font-size: 17px;
+        left: 135px;
+    }
+    .right{
+        width: 85%;
+    }
+    .left{
+        width: 15%;
+    }
+    .file{
+        left: 90px;
+        top: 125px;
+    }
+}
